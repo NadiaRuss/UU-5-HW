@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="popup-overflow">
+        <div class="loginPopup">
+          <img class="popup-close" src="./img/close.svg" alt="close popup" />
+          <h2 class="popup-header">Добро пожаловать!</h2>
+          <form id="loginForm">
+            <input
+              type="text"
+              id="loginInput"
+              placeholder="Введите ваше имя"
+              required
+            />
+            <button type="submit" id="login-button">Отправить</button>
+          </form>
+        </div>
+      </div>
+      <h1>Добро пожаловать</h1>
+      <div id="greeting"></div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

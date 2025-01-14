@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 10px;
+  margin-left: 40px;
+  color: #6964ac;
+}
+
+.loginPopup {
+  background-image: url("./img/BGlight.jpg");
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  border-radius: 10px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 19px -16px 12px 0px rgb(68 68 77);
+}
+
+.popup-overflow {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 6;
+}
+
+.popup-close {
+  position: relative;
+  top: 10px;
+  left: 358px;
+  width: 30px;
+}
+#loginForm {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.popup-header {
+  margin: 50px auto 0;
+}
+
+#loginInput {
+  width: 60%;
+  height: 32px;
+  font-size: 18px;
+  margin: 30px auto;
+  border-radius: 5px;
+  background-color: #ecd5cf;
+}
+
+#formButton,
+#login-button {
+  width: 205px;
+  height: 52px;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+main {
+  background-image: url("./img/BGlight.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+#greeting {
+  margin: 20vh auto;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
